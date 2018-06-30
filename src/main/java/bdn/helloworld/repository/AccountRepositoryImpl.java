@@ -10,6 +10,9 @@ import bdn.helloworld.model.FinSecurity;
 @Repository("accountRepository")
 public class AccountRepositoryImpl implements AccountRepository {
 
+	public AccountRepositoryImpl() {
+	}
+	
 	/* (non-Javadoc)
 	 * @see bdn.helloworld.repository.AccountRepository#getAllFinSecurities()
 	 */
